@@ -1,0 +1,1 @@
+This repository contains a Google Colab project for generating monthly channel group reports using data exported from Google Analytics 4. The project reads data from a Google Spreadsheet, processes and aggregates the metrics on a monthly basis, generates informative tables and graphs, and finally compiles everything into a polished PDF report using ReportLab.
