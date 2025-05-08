@@ -3,8 +3,6 @@
 This project builds a **monthly SEO keyword performance report** from Google Search Console (GSC) data stored in Google Sheets.  
 The workflow runs completely in **Google Colab**, translates top‑performing Japanese keywords to English with **LangChain + OpenAI**, calculates month‑over‑month and year‑over‑year deltas, and outputs a multi‑section **PDF** ready for stakeholders—complete with Japanese fonts and metric definitions.
 
----
-
 ## Key Features
 
 - **Zero‑setup Colab Notebook**  
@@ -30,8 +28,6 @@ The workflow runs completely in **Google Colab**, translates top‑performing 
   - Cover page & auto‑generated Table of Contents  
   - Eight tables (Clicks, Impressions, CTR, Rankings + JP/EN target sections)  
   - Appendix with metric definitions & licence note
-
----
 
 ## Process
 
