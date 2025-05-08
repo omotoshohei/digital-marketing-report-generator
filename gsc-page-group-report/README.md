@@ -1,4 +1,5 @@
-
+#Google Search Console Page-Group Monthly Report Generator
+Automate the end-to-end workflow of extracting GSC data from Google Sheets, transforming it in Python, visualising trends, and exporting a polished PDF report — all from a single Colab notebook or Python script.
 
 | Step                | Purpose                                          | Key function(s)                                   |
 | ------------------- | ------------------------------------------------ | ------------------------------------------------- |
@@ -8,3 +9,5 @@
 | **4. Aggregate**    | Build month-level tables with YoY & MoM deltas   | `generate_monthly_table()`                        |
 | **5. Visualise**    | Create bilingual bar charts (日本語 labels ready)   | `generate_monthly_graph()`                        |
 | **6. Package**      | Assemble cover, TOC, charts & tables into PDF    | `generate_pdf()`                                  |
+Result: gsc-page-group-report-monthly-simple-YYYY-MM-DD.pdf stored in your working directory (and Drive, if in Colab).
+
